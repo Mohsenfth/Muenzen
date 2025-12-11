@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 4.0)
+project(Muenzen)
+find_package( OpenCV REQUIRED)
+INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
+add_executable(Muenzen main.cpp)
+target_link_libraries(Muenzen ${OpenCV_LIBS})
+set(CMAKE_CXX_STANDARD 17)
