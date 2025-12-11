@@ -39,3 +39,54 @@
 
 # debug information files
 *.dwo
+
+# =========================
+# CLion / CMake / C++ .gitignore
+# =========================
+
+# --- Build folders ---
+cmake-build-*/
+build/
+bin/
+out/
+dist/
+
+# --- CMake generated files ---
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# --- Executables & object files ---
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+
+# --- Logs & system files ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- CLion / IntelliJ project files ---
+.idea/
+*.iml
+
+# --- Backup & temporary files ---
+*~
+*.swp
+*.tmp
+
+# --- Optional: ignore datasets, models, etc. ---
+# data/
+# models/
+# results/
